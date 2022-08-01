@@ -52,6 +52,7 @@ class getData(Resource):
 
             return res
 # 
+api.add_resource(getData, '/')
 api.add_resource(getData, '/api')
 
 
