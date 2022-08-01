@@ -56,6 +56,7 @@ api.add_resource(getData, '/api')
 
 
 api.add_resource(prediction, '/prediction/<int:Tori_Bohsa>,<int:Kutar>,<int:Cokar>,<int:Mix_Ati>,<int:Buffalo>,<int:Pala>,<int:Red_Sindhi>,<int:Thari>,<int:Kacchi>,<int:Gabrali>')
+# api.add_resource(prediction, '/prediction/","toriBohsa=","<int:Tori_Bohsa>,<int:Kutar>,<int:Cokar>,<int:Mix_Ati>,<int:Buffalo>,<int:Pala>,<int:Red_Sindhi>,<int:Thari>,<int:Kacchi>,<int:Gabrali>')
 
 if __name__ == '__main__':
     app.run(debug=True)
